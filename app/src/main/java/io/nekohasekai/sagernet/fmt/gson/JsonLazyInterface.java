@@ -35,10 +35,10 @@ public abstract class JsonLazyInterface<T> implements Lazy<T> {
     private T value;
     private boolean fromValue;
 
-    public JsonLazyInterface() {
+    protected JsonLazyInterface() {
     }
 
-    public JsonLazyInterface(T value) {
+    protected JsonLazyInterface(T value) {
         this.value = value;
         this.fromValue = true;
     }

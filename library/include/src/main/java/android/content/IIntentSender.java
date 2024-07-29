@@ -18,7 +18,7 @@ public interface IIntentSender extends IInterface {
 
     abstract class Stub extends Binder implements IIntentSender {
 
-        public Stub() {
+        protected Stub() {
             throw new UnsupportedOperationException();
         }
 
